@@ -4,7 +4,7 @@ variable "prefix" {
 }
 
 
-variable "AWS_ACCESS_KEY_ID" {
+/* variable "AWS_ACCESS_KEY_ID" {
   type        = string
   description = "(Required) access key."
 }
@@ -12,7 +12,7 @@ variable "AWS_ACCESS_KEY_ID" {
 variable "AWS_SECRET_ACCESS_KEY" {
   type        = string
   description = "(Required) secret key"
-}
+} */
 
 
 variable "project" {
