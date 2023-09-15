@@ -11,7 +11,6 @@ variable "project" {
 variable "environment" {
   type        = string
   description = "(Optional) Application environment for deployment, defaults to development."
-  default     = "development"
 }
 
 variable "region" {
