@@ -3,6 +3,18 @@ variable "prefix" {
   description = "(Required) This prefix will be included in the name of most resources."
 }
 
+
+variable "AWS_ACCESS_KEY_ID" {
+  type        = string
+  description = "(Required) access key."
+}
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  type        = string
+  description = "(Required) secret key"
+}
+
+
 variable "project" {
   type        = string
   description = "(Required) Application project name."
